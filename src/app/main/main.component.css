@@ -1,0 +1,177 @@
+.check-button {
+    width: 50px;
+    margin: 10px 20px 0 0;
+    padding: 5px 10px;
+    background: none;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.check-button img {
+    width: 50px;
+}
+
+.title-items {
+    display: flex;
+    align-items: center;
+}
+
+.title-items img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.title-items p {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.info-title button {
+    background-color: #e2e1e1;
+    width: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+}
+
+.info-title button:hover {
+    background-color: #cecece;
+}
+
+.h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.reprogram {
+    color: red;
+}
+
+.completed {
+    color: green;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.main {
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.task {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.add-container {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #999999;
+}
+
+.add-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-header input {
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.add-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-main label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.add-main input,
+.add-main textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.add-main input {
+    width: 400px;
+}
+
+.add-main textarea {
+    background-color: #fffaf8;
+}
+
+.add-main input:focus,
+.add-main textarea:focus {
+    border-color: #eebea1;
+    box-shadow: 0 0 5px #eebea180;
+    outline: none;
+}
+
+.add-main textarea {
+    min-height: 50px;
+    resize: vertical;
+}
+
+.add-buttons {
+    display: flex;
+    justify-content: end;
+}
+
+.add-buttons button {
+    width: auto;
+    padding: 10px 15px 10px 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #eebea1;
+    color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-buttons button:hover {
+    background-color: #e48f5b;
+}
+

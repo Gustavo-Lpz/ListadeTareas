@@ -4,7 +4,7 @@
             <h1>Mis Tareas</h1>
             <p>{{taskList.length}}</p>
         </div>
-        <div class="task">
+        <div class="tasks">
             @for( task of taskList; track task; let i=$index ){ 
                 <div class="task">
                     <div class="check-buttons">
@@ -38,17 +38,28 @@
                                 <button [class]="checkStatus(task)">Reprogramar</button>
                             }
                         </div>
-                        {{task.description}}
+                        <p>{{task.description}}</p>
                     </div>
                 </div>
             }
         </div>
         <div class="add-container">
             <div class="add-header">
-
+                <h3>Agregar Tarea</h3>
+                <input 
+                type="date"
+                [value]="newTask.date"
+                (input)="onDateChange($event)"
+                />
             </div>
             <div class="add-main">
-
+                <label for="title">Titulo</label>
+                <input type="text" id="title" [(ngModel)]="newTask.title"/>
+                <label for="description">Descripción</label>
+                <textarea name="" 
+                id="description"
+                [(ngModel)]="newTask.description">
+            </textarea>
             </div>
             <div class="add-buttons">
                 <button (click)="cancel()">Cancelar</button>
