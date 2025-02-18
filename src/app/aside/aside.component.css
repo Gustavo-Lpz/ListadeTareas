@@ -1,0 +1,51 @@
+aside {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fffaf8;
+    height: 100vh;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.main-title {
+    font-size: 1.5rem; /*rem unidad de medida*/
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-section p {
+    margin: 0;
+}
+
+.profile-section img {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px 0 20px;
+}
+
+li {
+    padding: 10px 20%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+ul img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+li:hover {
+    background-color: black;
+    color: red;
+}
+
+
